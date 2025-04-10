@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import DOMPurify from "dompurify";
-import "./app.css";
+import "./App.css";
 
 const Form = () => {
   const [formData, setFormData] = useState({
